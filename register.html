@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyBvywhSjeVso2Il_0JzG-nnyQXEM7N6kK0",
+		    authDomain: "spotz2share.firebaseapp.com",
+		    databaseURL: "https://spotz2share.firebaseio.com",
+		    projectId: "spotz2share",
+		    storageBucket: "",
+		    messagingSenderId: "67190339660"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		
+		<title>SPOTZ Register</title>
+		<link rel="stylesheet" type="text/css" href="CSS/index.css">
+		<link rel="icon" href="CSS/spotzlogo.png">
+	</head>
+	<body>
+		<div id="header">
+			<div id= "login-register">
+				<a href="/login.html" id ="login">Login</p>
+				<a href="/register.html" id ="register">Register</a>
+			</div>
+		</div>
+		
+		<div id="nav">
+			<div id="buttons">
+				<a href="/about.html" id ="about">About</a>
+				<a href="/" id ="contact-us">Contact</a>
+				<a href = "/" id = "home">Home</a>
+			</div>
+		</div>
+		
+		<div id="content">
+			<div id="credBox">
+				<h1>Register</h1>
+				<form class = "cred">
+					Email: <br>
+					<input type = "email" email = "email" pattern = "^[a-zA-Z0-9]+@{1}[a-zA-Z0-9]{2,}.{1}[a-zA-Z0-9]{2,}" autofocus required><br>
+					Password: <br>
+					<input type = "text" pass = "pass" pattern = "" required> <br>
+					Re-enter Password:<br>
+					<input type = "text" pass = "retypePass" required> <br>
+					<input type = "submit" value = "submit">
+				</form>
+				<a href= "/login.html">Already have an account? Click here.</a>
+			</div>
+		</div>
+		
+		<div id="bottom">
+	
+		</div>	
+			
+	
+			
+		
+		<div id="footer">
+					Since 2016
+		</div>
+	</body>
+</html>

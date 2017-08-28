@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden; 
+	overflow-y: hidden;
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	margin: 0;
+	font-family; Verdana, Geneva, sans-serif;
+	
+	
+	
+}
+
+.page-wrap {
+	width: 100%; /*1920px*/
+	margin: 0 auto;
+	position: relative;
+}
+
+/* HEADER*/
+#header{
+	position: relative;
+	width: 100%;
+	height: 60px;
+	background-color:white;
+}
+
+#logo{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	margin: 3px 0 10px 5px;
+}
+
+#logo_text{
+	position: absolute;
+	font-size: 30px;
+	color: #82E0AA;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 12px 0 10px 80px;
+}
+#logo_text:visited{
+	text-decoration:none;
+	color:#82E0AA;
+}
+
+#contact{
+	float: right;
+	text-decoration: none;
+	color: #82E0AA;
+	font-size: 20px;
+	margin: 12px 40px 10px 0;
+	border: 2px solid #82E0AA;
+	padding: 5px;
+	
+}
+#contact:visited{
+	text-decoration:none;
+	color:#82E0AA;
+	
+}
+#contact:hover{
+	background-color:rgba(0, 0, 0, 0.1);
+}
+
+#login-register{
+	float: right;
+	margin: 5px;
+	position: relative;
+	font-family: sans-serif;
+}
+#login{
+	display: inline-block;
+	padding-right: 5px;
+}
+#register{
+	
+}
+a:link{
+	text-decoration: none;
+}
+
+
+
+
+/* WELCOME*/
+#content{
+	position: relative;
+	background-color:#E5E5E5;
+	width: 100%;
+	/*height: 400px;*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
+}
+
+#welcome_text{
+	background-color: #FFF;
+	width: 100%;
+	height: 500px;
+	color: #abf0d1;
+	font-size: 200px;
+	font-family: verdana;
+}
+
+
+/* Login */
+#credBox{
+	background-color: #FFF;
+	position: relative;
+
+	width: 60%;
+	height: 400px;
+	margin-left: auto; /* Centers content */
+	margin-right: auto; /* Centers content */
+	/* For testing 
+	border-style: solid;
+	border-color: blue; */
+	font-family: sans-serif;
+	text-align: center;
+	border-radius: 25px;
+
+}
+
+form.cred, div.credBox a, div.credBox h1{
+/*	Testing vertical and horizontal alignment
+	width: 50%;
+  	margin: 0 auto;
+  	position: absolute;
+  	left: 0;
+  	right: 0;
+  	top: 50%;
+  	transform: translate(0, -50%);*/
+
+}
+
+form.cred{
+	/*position: relative;*/
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+
+/*NAV*/
+#nav{
+	position: relative;
+	width: 100%;
+	height: 33px;
+	background-color:#82E0AA;
+	
+}
+.tab{
+	
+	text-decoration:none;
+	color: white;
+	font-family:sans-serif;
+	margin: 70px;
+	font-size:  30px;
+	padding: 0;
+
+}
+.tab:hover{
+	color:rgba(0, 0, 0, 0.1);
+	
+}
+#buttons{
+	position: relative;
+	margin-top: 5px;
+	padding: 1px;
+	display: inline-block;
+	float: left;
+	font-family: sans-serif;
+	/*border-style: solid;*/
+}
+#about, #contact-us, #home{
+	color:white;
+	/*border-style: solid;*/
+	margin-left: 8px;
+	margin-right: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+#about:hover, #contact-us:hover, #home:hover{
+	color:rgba(0,0,0,0.5);
+	/*background-color:rgba(0,0,0,0.2);*/
+}
+
+
+
+
+
+
+/*FOOTER*/
+#footer{
+	width:100%;
+	height: 20px;
+	font-size:16px;
+	background-color: #999;
+	color: white;
+	text-align: end;
+	font-family: verdana;
+}

@@ -1,0 +1,27 @@
+8/28/2017
+Changes:
+    1. Added login page
+    2. Added links to login, register, about, contact
+    3. Changed the front page logo to a link to the home page.
+    4. Added register page
+    5. Added about page
+
+
+Problems
+    1. Home page looks different on different browsers.
+        - Fixed it by clearing the cache on google chrome
+
+TODO:
+    1. Add https
+    2. Fix page appearances: register, about, login
+    3. Connect firebase
+    4. Add contact page
+    5. Add script to enforce login/registration constraints
+    6. Add script to check whether or not authenticated.
+    7. Add authenticated web pages.
+
+Questions:
+    1. Do you want to keep the SPOTZ title on every page?
+    2. Is this the color scheme that you want to go with?
+    3. What other links should we include in the unauthenticated section of the website?
+    4. 
